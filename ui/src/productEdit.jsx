@@ -168,7 +168,7 @@ export default class ProductEdit extends React.Component {
                   value={product_image}
                   onChange={this.onChange}
                   key={product_id}
-                  className="padding-right-20"
+                  className="form-control"
                 />
               </Col>
             </FormGroup>

@@ -13,6 +13,7 @@ const NotFound = () => <h1>Page Not Found</h1>;
 
 const NavBar = () => (
   <Navbar bsStyle="inverse" style={{ borderRadius: 0 }}>
+  {/* <Navbar bg="primary" variant="dark"> */}
     <Navbar.Header>
       <Navbar.Brand>My Company Inventory</Navbar.Brand>
     </Navbar.Header>
